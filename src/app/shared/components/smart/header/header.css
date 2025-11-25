@@ -1,0 +1,45 @@
+.general {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgb(181, 220, 254);
+}
+
+.general nav {
+    border-radius: 5px;
+}
+
+.title-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.title-container {
+    display: flex;
+}
+
+.title-container span {
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0 2rem;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
