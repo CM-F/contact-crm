@@ -1,0 +1,39 @@
+/* Global */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 16px;
+  color: #434242;
+}
+
+body {
+  font-family: IBM Plex Mono,monospace;
+  background-color: aliceblue;
+  width: 100%;  
+  text-align: center;
+}
+
+main {
+  min-height: 44rem;
+}
+
+/* errors */
+.red {
+  color: red;
+}
+
+.message {
+  font-size: 1.4rem;
+}
+
+/* Title */
+.page-title {
+  font-weight: bold;
+  font-size: 2.4rem;
+  margin: 15px 0;
+  text-transform: uppercase;
+  color: #2c5e77;
+}

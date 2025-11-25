@@ -1,0 +1,4 @@
+<h1 class="page-title">Update Employee Infos</h1>
+@if(employee) {
+    <app-employee-form [employee]="employee" (editEmployee)="onEditEmployee($event)"/>
+}
