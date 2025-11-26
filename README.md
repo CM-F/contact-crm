@@ -19,7 +19,7 @@ A local contact management application for creating, editing, filtering, and sor
 
 ## Technologies Used
 
-- **Framework**: Angular 17
+- **Framework**: Angular 20
 - **Language**: TypeScript
 - **State Management**: Angular Signals
 - **Data Persistence**: `localStorage`
